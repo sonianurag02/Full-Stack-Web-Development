@@ -6,11 +6,68 @@
     <title>Forms</title>
 </head>
 <body>
-    <form action="/action">
-        <label for="">
-            Username
-            <input type="text" placeholder="Enter username">
-        </label>
+    <form action="/server">
+        <!-- <div>
+            <label for="username"> Enter your username: </label>
+            <input type="text" id="username" name="username" placeholder="Enter username">
+        </div>
+        <div>
+            <label for="password"> Password: </label>
+            <input type="text" id="password" name="password" placeholder="Enter password">
+        </div>
+        <div>
+            <label for="age"> Enter age: </label>
+            <input type="number" id=" age" placeholder="Age">
+        </div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button">Button</button> <br>
+        <input type="button" value="click me">
+        <input type="submit" value="click me"> -->
+
+        <!-- <input type="checkbox" id="age" name="age" checked/>
+        <label for="age"> I am 18+ </label>
+        <button>Submit</button> -->
+
+        <div>
+            <input type="radio" name="fruit" id="apple" value="apple">
+            <label for="apple">apple</label>
+            <input type="radio" name="fruit" id="mango" value="mango">
+            <label for="mango">mango</label>
+            <input type="radio" name="fruit" id="banana" value="banana">
+            <label for="banana">banana</label>
+        </div>
+        <br>
+        <div>
+            Choose your Subjects: 
+            <input type="checkbox" name="subjects" id="math">
+            <label for="math">math</label>
+            <input type="checkbox" name="subjects" id="science">
+            <label for="science">science</label>
+            <input type="checkbox" name="subjects" id="english">
+            <label for="english">english</label>
+        </div>
+        <br>
+        <div>
+            Choose your profession
+            <select name="profession" id="profession">
+                <option>Select your Option</option>
+                <option value="student" selected>student</option>
+                <option value="developer">developer</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="vol">Select your volume level: </label>
+            <input type="range" id="vol" min="0" max="100" name="volume" step="10" value="70">
+        </div>
+        <br>
+        <div>
+            <label for="feedback">Please give your valuable feedback: </label><br>
+            <textarea name="feedback" id="feedback" rows="5" cols="50" placeholder="Write your feedback here!!"></textarea>
+        </div>
+
+        <button>submit</button>
     </form>
 </body>
 </html>
