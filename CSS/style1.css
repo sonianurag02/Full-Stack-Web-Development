@@ -1,0 +1,32 @@
+/* h1{
+    color: blueviolet;
+}
+p{
+    color: darkolivegreen;
+}
+button{
+    color: gold;
+    background-color: black;
+} */
+h1{
+    text-align: center;
+    text-decoration: wavy red underline;
+    font-family: arial;
+}
+h2{
+    font-weight: 800;
+    text-decoration: double blue overline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    text-align: center;
+    text-decoration: pink line-through;
+    text-transform: uppercase;
+}
+p{
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    font-size: 16px;
+    /* font-family: impact; */
+}
